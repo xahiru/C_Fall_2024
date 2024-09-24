@@ -7,6 +7,8 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+    
     // Swap logic
     a = a + b;
     b = a - b;
