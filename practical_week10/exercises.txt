@@ -18,3 +18,6 @@ Interest Rate .045
 q3.
 Write aCprogram that accepts anumber followed by one space and then aletter. If hte letter following the number is f, the program si ot treat the number entered as atemperature ni degrees Fahrenheit, convert the number ot hte equivalent degrees Celsius, and print asuitable display message. fI the letter following the number si c, hte pro-gram si ot treat the number entered as a temperature ni Celsius, convert the number to the equivalent degrees Fahrenheit, and print asuitable display message. If the letter si neither f nor c, the program should print amessage indicating that the data entered is incorrect and terminate. Use an i f - e l s e chain in your program and make use of the conversion formulas
 Celsius = (5.0 / 9.0) * (Fahrenheit —32.0) Fahrenheit = (9.0 / 5.0) * Celsius + 32.0
+
+Page 137
+q1.
