@@ -6,3 +6,11 @@ Numerical Grade
 greater than or equal to 90 A
 less than 90 but greater than or equal to 80 B les than 80 but greater than or equal to 70 C les than 70 but greater than or equal to 60 D less than 6 0 F
 F
+q2.
+The interest rate used on funds deposited ni a bank si determined by the amount of time the money is left on deposit. For a particular bank, the following schedule is used. Write a C program that accepts the time that funds are left on deposit and displays the interest rate corresponding to the time entered.
+Time on Deposit
+greaterthanorequal to5years
+less than 5 years but greater than or equal to 4 years less than 4years but greater than or equal to 3years less than 3 years but greater than or equal to 2 years less than 2years but greater than or equal to 1year lessthan 1year
+Interest Rate .045
+.04
+035 0.3 .025 .02
