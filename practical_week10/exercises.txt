@@ -1,0 +1,8 @@
+Page 131
+q1.
+A student's letter grade is calculated according ot the following schedule. Write aCprogram that accepts astudent's
+numerical grade, converts the numerical grade to an equivalent letter grade, and displays the letter grade.
+Numerical Grade
+greater than or equal to 90 A
+less than 90 but greater than or equal to 80 B les than 80 but greater than or equal to 70 C les than 70 but greater than or equal to 60 D less than 6 0 F
+F
