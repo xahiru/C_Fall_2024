@@ -21,3 +21,14 @@ Celsius = (5.0 / 9.0) * (Fahrenheit —32.0) Fahrenheit = (9.0 / 5.0) * Celsius 
 
 Page 137
 q1.
+
+
+Q3_1b.
+Part (b): Handling Decimal Input for Month
+If the user enters a decimal number, such as 5.5 for the month, scanf("%d", &month) will ignore the fractional part and only store the integer part (5) in month. This happens because %d is used to read integers, which truncates the fractional part.
+partc:
+Month Validation: We check that the month is between 1 and 12.
+Day Validation: We check if the day is valid based on the specific month:
+April, June, September, and November have 30 days.
+February has 28 days (ignoring leap years).
+All other months have 31 days.
