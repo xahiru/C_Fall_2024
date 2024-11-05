@@ -13,6 +13,6 @@ int main() {
         printf("Enter a grade: ");
     }
 
-    printf("\nThe total of the grades is %.2f\n", total);
+    printf("\nThe total of the grades is %f\n", total);
     return 0;
 }
