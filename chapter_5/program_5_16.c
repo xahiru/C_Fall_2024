@@ -13,7 +13,7 @@ int main() {
     printf("-----------------------\n");
 
     for (num = 1; num <= final; num++) {
-        printf("%3d      %4d     %5d\n", num, num * num, num * num * num);
+        printf("%3d      %7d     %6d\n", num, num * num, num * num * num);
     }
 
     return 0;
