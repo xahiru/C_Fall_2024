@@ -6,14 +6,15 @@
 
 int main()
 {
-    float randValue;
+    int randValue;
 
     int i;
     srand(time(NULL)); /* Initialize the random number generator */
-    for (i = 0; i < TOTALNUMBERS; i++) // Loop runs TOTALNUMBERS times
+    // srand(100); /* Initialize the random number generator */
+    for (i = 0; i < 10; i++) // Loop runs TOTALNUMBERS times
     {
-        randValue = (float)rand() / RAND_MAX; // Generates a random float in [0, 1]
-        printf("Iteration %d: Random Value = %.2f\n", i + 1, randValue);
+        randValue = 20 + ((int)rand() % (30-20 +1)); // Generates a random float in [0, 1]
+        printf("Iteration %d: Random Value = %d\n", i + 1, randValue);
     }
 
     return 0;
